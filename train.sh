@@ -2,7 +2,7 @@
 
 STUDENT_ID=xxxxxxx STUDENT_NAME="xxxxxx" python Training.py \
 --model_mode tf_efficientnet_b0 \
---dataset_location ../EEEM066_KnifeHunter \
+--dataset_location  \kaggle\ input\ knifedata/EEEM066_KnifeHunter \
 --train_datacsv dataset/train.csv \
 --val_datacsv dataset/validation.csv \
 --saved_checkpoint_path Knife-Effb0 \
